@@ -34,6 +34,6 @@ public class Categories {
         return "Categories: " +
                 "categoryId: " + categoryId +
                 ", categoryName: " + categoryName +
-                ", description='" + description;
+                ", description: " + description;
     }
 }

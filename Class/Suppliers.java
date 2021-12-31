@@ -3,6 +3,7 @@ package Day6.Class;
 public class Suppliers {
     String supplierId;
     String supplierName;
+    String contactName;
     String address;
     String city;
     String postalCode;
@@ -23,6 +24,14 @@ public class Suppliers {
 
     public void setSupplierName(String supplierName) {
         this.supplierName = supplierName;
+    }
+
+    public String getContactName() {
+        return contactName;
+    }
+
+    public void setContactName(String contactName) {
+        this.contactName = contactName;
     }
 
     public String getAddress() {
@@ -70,6 +79,7 @@ public class Suppliers {
         return "Suppliers: " +
                 "supplierId: " + supplierId +
                 ", supplierName: " + supplierName +
+                ", contactName: " + contactName +
                 ", address: " + address +
                 ", city: " + city +
                 ", postalCode: " + postalCode +

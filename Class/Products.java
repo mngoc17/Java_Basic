@@ -2,7 +2,7 @@ package Day6.Class;
 
 public class Products {
     String productId;
-    String productNameId;
+    String productName;
     String supplierId;
     String categoryId;
     String unit;
@@ -16,12 +16,12 @@ public class Products {
         this.productId = productId;
     }
 
-    public String getProductNameId() {
-        return productNameId;
+    public String getProductName() {
+        return productName;
     }
 
-    public void setProductNameId(String productNameId) {
-        this.productNameId = productNameId;
+    public void setProductName(String productName) {
+        this.productName = productName;
     }
 
     public String getSupplierId() {
@@ -60,7 +60,7 @@ public class Products {
     public String toString() {
         return "Products: " +
                 "productId: " + productId +
-                ", productNameId: " + productNameId +
+                ", productName: " + productName +
                 ", supplierId: " + supplierId +
                 ", categoryId: " + categoryId +
                 ", unit: " + unit +
