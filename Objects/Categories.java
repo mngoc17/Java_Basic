@@ -1,4 +1,4 @@
-package Day6.Class;
+package Day6.Objects;
 
 public class Categories {
     String categoryId;

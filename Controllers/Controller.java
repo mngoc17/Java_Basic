@@ -1,13 +1,13 @@
 package Day6.Controllers;
 
-import Day6.Class.Customers;
-import Day6.Class.Orders;
-import Day6.Class.Categories;
-import Day6.Class.OrderDetails;
-import Day6.Class.Employees;
-import Day6.Class.Products;
-import Day6.Class.Shippers;
-import Day6.Class.Suppliers;
+import Day6.Objects.Customers;
+import Day6.Objects.Orders;
+import Day6.Objects.Categories;
+import Day6.Objects.OrderDetails;
+import Day6.Objects.Employees;
+import Day6.Objects.Products;
+import Day6.Objects.Shippers;
+import Day6.Objects.Suppliers;
 
 public class Controller {
     public static void main(String[] args) {
